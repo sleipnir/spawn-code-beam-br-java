@@ -23,7 +23,6 @@ public class Producer {
 
     public void send(Request request) throws InvalidProtocolBufferException {
         Any any = Any.pack(request);
-        System.out.println(any);
         byte[] packPayload = any.toByteArray();
         String payloadBase64 = Base64.getEncoder().encodeToString(packPayload);
 
