@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package io.eigr.functions.spawn.codebeambr.messages;
+
+option java_multiple_files = true;
+option java_package = "io.eigr.functions.spawn.codebeambr.messages";
+option java_outer_classname = "MessagesProto";
+
+message Request {
+  string language = 1;
+}
+
+message Reply {
+  string response = 1;
+}

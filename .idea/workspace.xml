@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f2e97f96-2eaf-4b5c-83c9-7248adafc862" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/eigr/functions/spawn/codebeambr/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/eigr/functions/spawn/codebeambr/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/eigr/functions/spawn/codebeambr/actors/JoeActor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/eigr/functions/spawn/codebeambr/actors/RobertActor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/eigr/functions/spawn/codebeambr/api/ApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/eigr/functions/spawn/codebeambr/messaging/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/io/eigr/functions/spawn/codebeambr/messages/messages.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/io/eigr/functions/spawn/codebeambr/state/actors/joe.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/io/eigr/functions/spawn/codebeambr/state/actors/robert.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/eigr/functions/spawn/codebeambr/CloudEventSerializerTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="zas7or9x" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ELuJoYbC0GlH5gRlUGD4EPemCC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/sleipnir/workspaces/eigr/spawn-code-beam-br-java/src/main/proto/io/eigr/functions/spawn/codebeam/br/user",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.27126437"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/proto/io/eigr/functions/spawn/codebeam/br/user" />
+      <recent name="$PROJECT_DIR$/src/main/proto/io/eigr/functions/spawn/codebeam/br/user/domain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/proto/io/eigr/functions/spawn/codebeambr" />
+      <recent name="$PROJECT_DIR$/src/main/proto/io/eigr/functions/spawn/codebeam/br/messages" />
+      <recent name="$PROJECT_DIR$/src/main/proto/io/eigr/functions/spawn/codebeam/br" />
+      <recent name="$PROJECT_DIR$/src/main/proto/io/eigr/functions/spawn/codebeam/br/user" />
+      <recent name="$PROJECT_DIR$/src/main/proto/io/eigr/functions/spawn/codebeam/br/user/domain/actors" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.eigr.functions.spawn.codebeam.br.actors" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CloudEventSerializerTest.shouldOutputToJson_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spawn-code-beam-br-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.eigr.functions.spawn.codebeambr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="io.eigr.functions.spawn.codebeambr" />
+      <option name="MAIN_CLASS_NAME" value="io.eigr.functions.spawn.codebeambr.CloudEventSerializerTest" />
+      <option name="METHOD_NAME" value="shouldOutputToJson_Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CloudEventSerializerTest.shouldOutputToJson_Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2e97f96-2eaf-4b5c-83c9-7248adafc862" name="Changes" comment="" />
+      <created>1662387118846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662387118846</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
