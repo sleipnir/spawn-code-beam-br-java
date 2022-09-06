@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2e97f96-2eaf-4b5c-83c9-7248adafc862" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/eigr/functions/spawn/codebeambr/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/eigr/functions/spawn/codebeambr/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/eigr/functions/spawn/codebeambr/actors/JoeActor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/eigr/functions/spawn/codebeambr/actors/RobertActor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/eigr/functions/spawn/codebeambr/api/ApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/eigr/functions/spawn/codebeambr/messaging/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/proto/io/eigr/functions/spawn/codebeambr/messages/messages.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/proto/io/eigr/functions/spawn/codebeambr/state/actors/joe.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/proto/io/eigr/functions/spawn/codebeambr/state/actors/robert.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/eigr/functions/spawn/codebeambr/CloudEventSerializerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
