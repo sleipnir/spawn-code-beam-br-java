@@ -2,7 +2,7 @@ package io.eigr.functions.spawn.codebeambr.api;
 
 import io.eigr.functions.spawn.codebeambr.messages.Reply;
 import io.eigr.functions.spawn.codebeambr.messages.Request;
-import io.eigr.functions.spawn.codebeambr.messaging.Producer;
+import io.eigr.functions.spawn.codebeambr.messaging.RabbitMQProducer;
 import io.eigr.functions.spawn.codebeambr.state.actors.JoeState;
 import io.eigr.functions.spawn.codebeambr.state.actors.RobertState;
 import io.eigr.spawn.springboot.starter.SpawnSystem;
@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Mono;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
@@ -25,7 +24,7 @@ public final class ApiController {
     private SpawnSystem actorSystem;
 
     @Autowired
-    private Producer rabbitMQProducer;
+    private RabbitMQProducer rabbitMQProducer;
 
     @GetMapping("/actors/{name}")
     public Mono<ResponseEntity<String>> getActorState(@PathVariable String name) throws Exception {

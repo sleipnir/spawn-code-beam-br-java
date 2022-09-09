@@ -1,21 +1,11 @@
 package io.eigr.functions.spawn.codebeambr;
 
-import io.eigr.functions.spawn.codebeambr.messages.Reply;
-import io.eigr.functions.spawn.codebeambr.messages.Request;
-import io.eigr.functions.spawn.codebeambr.messaging.Producer;
-import io.eigr.spawn.springboot.starter.SpawnSystem;
 import io.eigr.spawn.springboot.starter.autoconfigure.EnableSpawn;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.amqp.rabbit.annotation.EnableRabbit;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.Bean;
-
-import java.time.Duration;
-import java.time.Instant;
 
 @Log4j2
 @EnableSpawn
